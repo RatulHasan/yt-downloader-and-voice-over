@@ -1,0 +1,7 @@
+openai
+python-dotenv
+IPython
+opencv-python
+requests
+pytube
+yt-dlp
