@@ -1,9 +1,18 @@
-Fast A PY
-==================
-Build API with fastAPI
-
+# Youtube video downloader and AI voice generator
 
 ### To run the project, you need to follow the following steps:
+1) Clone the repository: Start by cloning the repository to your local machine using the following command:
+
+```bash
+  git clone https://github.com/RatulHasan/yt-downloader-and-voice-over.git
+```
+2) Navigate to the project directory: Once the repository is cloned, navigate to the project directory using the following command:
+
+```bash
+cd yt-downloader-and-voice-over
+```
+### Setting up a virtual environment and installing dependencies:
+To set up the project and install the required dependencies, follow these steps:
 1) Set up a virtual environment: Virtual environments help isolate the project's dependencies from your system's Python installation. Open a terminal or command prompt and navigate to the project directory. Then create a new virtual environment by running the following command:
 
 ```bash
@@ -33,7 +42,11 @@ pip3 install -r requirements.txt
 pip3 freeze > requirements.txt
 ```
 
-### To run the project
+### To run the voice generator, you need to follow the following steps:
 ```bash
-uvicorn main:app --reload  --port [port] --host [host]
+python3 ./main.py
+```
+### To run the youtube video downloader, you need to follow the following steps:
+```bash
+python3 ./downloadYT.py
 ```
