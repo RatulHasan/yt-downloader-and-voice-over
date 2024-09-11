@@ -52,7 +52,7 @@ pip3 freeze > requirements.txt
 
 ### To run the voice generator, you need to follow the following steps:
 ```bash
-python3 ./main.py
+python3 ./voice_over.py
 ```
 ### To run the youtube video downloader, you need to follow the following steps:
 ```bash
