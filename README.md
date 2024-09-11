@@ -11,6 +11,14 @@
 ```bash
 cd yt-downloader-and-voice-over
 ```
+Rename the file `.env.example` to `.env`
+```bash
+mv .env.example .env
+```
+### ⚠️ Note: The voice generator requires an OpenAI API key to work.
+```bash
+OPENAI_API_KEY=your_openai_api_key
+```
 ### Setting up a virtual environment and installing dependencies:
 To set up the project and install the required dependencies, follow these steps:
 1) Set up a virtual environment: Virtual environments help isolate the project's dependencies from your system's Python installation. Open a terminal or command prompt and navigate to the project directory. Then create a new virtual environment by running the following command:
